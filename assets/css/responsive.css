@@ -81,3 +81,10 @@
         display: inline-block;
     }
 }
+
+@media (min-width: 64em){
+    .member-img:hover{
+        transform: scale(1.15,1.15);
+        box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+    }
+}
